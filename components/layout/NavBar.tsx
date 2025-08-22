@@ -1,6 +1,5 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { IoIosClose, IoIosMenu } from "react-icons/io";
 import { WhatsAppButton } from "../common/WhatsAppButton";

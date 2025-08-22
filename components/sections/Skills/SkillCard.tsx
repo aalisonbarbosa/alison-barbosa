@@ -7,7 +7,7 @@ import { IconType } from "react-icons";
 type SkillCardProps = ComponentProps<typeof motion.div> & {
   Icon: IconType;
   description: string;
-  setDescription: any;
+  setDescription: React.Dispatch<React.SetStateAction<string>>;
 };
 
 export const SkillCard = ({
