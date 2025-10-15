@@ -8,6 +8,7 @@ import { IoEyeSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionTitle } from "@/components/common/SectionTitle";
+import { summary } from "framer-motion/client";
 
 export const ProjectsSection = () => {
   const projects = [
@@ -28,6 +29,14 @@ export const ProjectsSection = () => {
       techStack: [RiNextjsLine, BiLogoTypescript, RiTailwindCssFill],
       github: "https://github.com/aalisonbarbosa/money-flow",
       demo: "https://money-flow-kappa.vercel.app/",
+    },
+    {
+      name: "Estoque App",
+      thumbnail: "/images/estoque-app.png",
+      summary: "Sistema de gerenciamento de estoque, com cadastro e controle de produtos, movimentações e usuários, incluindo diferentes níveis de autorização. Conta com autenticação e foco em usabilidade. Projeto criado para praticar CRUD, Next.js e boas práticas de desenvolvimento.",
+      techStack: [RiNextjsLine, BiLogoTypescript, RiTailwindCssFill],
+      github: "https://github.com/aalisonbarbosa/estoque-app",
+      demo: "https://estoque-app-sigma.vercel.app/",
     },
   ];
 

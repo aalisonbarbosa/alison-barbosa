@@ -19,7 +19,7 @@ export const HeroSection = () => {
           <h1 className="text-4xl lg:text-6xl md:max-lg:text-5xl font-medium mb-2 bg-gradient-to-l from-green-dark via-green-primary to-green-accent bg-clip-text text-transparent">
             Alison Barbosa
           </h1>
-          <h2 className="text-xl lg:text-3xl md:max-lg:text-2xl text-light-gray">Front-End Developer.</h2>
+          <h2 className="text-xl lg:text-3xl md:max-lg:text-2xl text-light-gray">Full Stack Developer.</h2>
           <div className="flex items-center gap-2 mt-4">
             <SocialButton
               Icon={IoLogoLinkedin}

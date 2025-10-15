@@ -34,11 +34,17 @@ export const AboutSection = () => {
             transition={{ duration: 0.5 }}
             className="text-light-gray max-sm:text-sm"
           >
-            Sou Alison Barbosa, 18 anos, estudante de Sistemas de Informação na
-            Unifacisa e desenvolvedor front-end com experiência prática em
-            React, Next.js e TypeScript. Meu objetivo é me tornar um fullstack
-            developer capaz de entregar soluções completas, do banco de dados à
-            interface.
+            Sou Alison Barbosa, desenvolvedor Full Stack apaixonado por
+            transformar ideias em aplicações web completas e funcionais. No
+            front-end, domino React, Next.js e TypeScript, criando interfaces
+            modernas, intuitivas e responsivas. No back-end, trabalho com
+            Node.js, Prisma, MySQL, PostgreSQL, Java e Spring Boot, estruturando
+            sistemas escaláveis e confiáveis.
+            <br />
+            <br />
+            Tenho experiência prática em projetos reais, entregando soluções que
+            vão do banco de dados à interface, sempre com foco em desempenho,
+            organização e qualidade de código.
           </motion.p>
         </div>
         <div className="h-full flex items-center justify-center"></div>
